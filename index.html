@@ -19,7 +19,11 @@
 		<meta property = "og:url" content = "https://owlhub.ga" />
 		<meta property = "og:secure_url" content = "https://owlhub.ga">
 		<meta property = "og:image" content = "https://owlhub.ga/Logo.ico" />
-
+	    
+<body onload="myFunction()">
+<div id="loading"></div>
+<header>
+	
         <style>
             body {
 				background-color: rgb(25, 25, 25);
@@ -154,6 +158,20 @@
 <div class="bz_cam bz_radio" style="z-index:1;right:202px;top:0px;"><div class="bz_cam_div"><audio autoplay="" controls=""><source src="https://cdn.kapwing.com/final_5e35fc1c3963110016ef53cf_988947.mp4" type="audio/mpeg"></audio></div></div></center></div>            
     </div>
     </div>
+			    
+			    <script>
+		// $(document).ready(function(){
+			// 	$('div#loading').removeAttr('id');
+		// });
+		var preloader = document.getElementById("loading");
+		// window.addEventListener('load', function(){
+		// 	preloader.style.display = 'none';
+		// 	})
+
+		function myFunction(){
+			preloader.style.display = 'none';
+		};
+	</script>
 
         <script type="text/javascript">
             const scriptBtn = document.getElementById("scriptBtn");
